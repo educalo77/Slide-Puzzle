@@ -96,15 +96,15 @@ button {
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	height: 100%;
+	height: auto;
 
 }
 .monksone {
 	position: absolute;
 	display: flex;
 	align-items: center;
-	left: 10%;
-	top: 60%;
+	left: 12%;
+	top: 55%;
 	margin-top: 0%;
 	margin-left: 0%;
 	transform: scale(0.5);
@@ -123,13 +123,12 @@ button {
 
 }
 .tabl {
-	position: fixed;
-	display: grid;
-	left: 1.5%;
+	position: absolute;
+	display: flex;
+	left: 3.5%;
 	top: 3%;
 	border: 3px solid #550000;
 	transform: scale(0.60);
-	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
@@ -139,6 +138,8 @@ table {
 	left: 0%;
 	top: 0%;
 	margin-left: 0%;
+	align-items: center;
+	justify-content: center;
 }
 td {
 	width: 100px;;
@@ -155,4 +156,5 @@ tr {
    	margin: 0px;
    	line-height: 0px;
 }
+
   }
