@@ -76,3 +76,83 @@ button {
 	cursor: pointer;
 	outline: inherit;
 }
+
+@media screen and (max-width:414px) {
+
+
+.monksbanner {
+	display: none;
+	visibility: hidden;
+}
+
+.all{
+	position: static;
+	top: 0%;
+	left: 0%;
+	margin-top: 0%;
+	margin-left: 0%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+
+}
+.monksone {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	left: 10%;
+	top: 60%;
+	margin-top: 0%;
+	margin-left: 0%;
+	transform: scale(0.5);
+
+}
+.monks {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	margin-top: 0%;
+	margin-left: 0%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+.tabl {
+	position: fixed;
+	display: grid;
+	left: 1.5%;
+	top: 3%;
+	border: 3px solid #550000;
+	transform: scale(0.60);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+table {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	margin-left: 0%;
+}
+td {
+	width: 100px;;
+	height:100px;
+	text-align:center;
+	padding: 0px; 
+   	margin: 0px;
+   	line-height: 0px;
+   	border: 1px solid #550000;
+}
+
+tr {
+	padding: 0px; 
+   	margin: 0px;
+   	line-height: 0px;
+}
+  }
